@@ -120,20 +120,20 @@ public class BmiCalculator {
 	
 	public static String determineBMICategory(double bmi) {
 		if (bmi < 18.5) {
-			return "Underweight: Gain weight in a healthy way - Eat nutrient-dense foods. ";
-			//System.out.println("Gain weight in a healthy way : Eat nutrient-dense foods. ");
+			return "Underweight : Gain weight in a healthy way - Eat nutrient-dense foods. ";
+			//System.out.println("Underweight : Gain weight in a healthy way : Eat nutrient-dense foods. ");
 		} else if (bmi < 25) {
 			return "Normal weight : Maintain a healthy lifestyle - Eat a balanced diet. ";	
-			//System.out.println("Maintain a healthy lifestyle : Eat a balanced diet. ");
+			//System.out.println("Mormal weight : Maintain a healthy lifestyle : Eat a balanced diet. ");
 		} else if (bmi < 30) {
 			return "Overweight : Gradual weight loss - Reduce intake of processed foods and sugary drinks.";
-			//System.out.println("Gradual weight loss : Reduce intake of processed foods and sugary drinks. ");
+			//System.out.println("Overweight : Gradual weight loss : Reduce intake of processed foods and sugary drinks. ");
 		} else if (bmi < 35) {
 			return "Obese : Improve health and reduce weight safely - Follow a structured eating plan. "; 	
-			//System.out.println("Improve health and reduce weight safely : Follow a structured eating plan. ");
+			//System.out.println("Obese : Improve health and reduce weight safely : Follow a structured eating plan. ");
 		} else {
 			return "Severely Obese : Reduce serious health risks - Consult a doctor or dietician for a personalized plan. ";
-			//System.out.println("Reduce serious health risks : Consult a doctor or dietician for a personalized plan. ");
+			//System.out.println(" Severly Obese : Reduce serious health risks : Consult a doctor or dietician for a personalized plan. ");
 			
 		}	
 	}		
